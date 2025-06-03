@@ -1,0 +1,78 @@
+/* index.css */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #fff;
+    background: url("../img/libreria.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+
+header {
+    background-color: rgba(52, 73, 94, 0.8);
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 32px;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ecf0f1;
+    margin: 0 15px;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #1abc9c;
+}
+
+.usuario {
+    font-weight: bold;
+    color: #ecf0f1;
+    margin: 0 15px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    text-align: center;
+}
+
+.bienvenida {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 40px;
+    border-radius: 12px;
+    max-width: 600px;
+}
+
+.bienvenida h2 {
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+.bienvenida p {
+    font-size: 18px;
+}
+
+footer {
+    background-color: rgba(52, 73, 94, 0.8);
+    color: #ecf0f1;
+    text-align: center;
+    padding: 15px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    box-shadow: 0 -4px 6px rgba(0,0,0,0.1);
+}
